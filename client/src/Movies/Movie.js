@@ -4,7 +4,7 @@ import axios from "axios";
 
 const Movie = props => {
     const [movie, setMovie] = useState();
-    console.log(props);
+    // console.log(props);
 
     const id = props.match.params.movieID;
     useEffect(() => {
